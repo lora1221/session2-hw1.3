@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dien tich hinh tron</title>
+</head>
+<body>
+<p> Dien tich hinh tron la: </p>
+<p id= "demo"></p>
+<button type = "button" onclick = "area();">Click Me!</button>
+
+<script>
+    const PI = 3.14;
+    function area() {
+        var r = parseFloat(prompt("Nhap ban kinh hinh tron: "));
+        var area = PI*r*r;
+        document.getElementById("demo").innerHTML = area;
+    }
+</script>
+</body>
+</html>
